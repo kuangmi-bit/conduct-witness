@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>souba-db price claims recomputed by kuangmi-bit/conduct-witness</title>
+<meta name="description" content="kuangmi-bit/conduct-witness recomputed HORIZON SHIELD's published renovation price claims against the souba-db dataset on 2026-10-06.">
+<style>body{font:15px/1.6 system-ui,sans-serif;max-width:60rem;margin:2rem auto;padding:0 16px;color:#111;background:#fff}
+table{border-collapse:collapse;width:100%}td,th{border-top:1px solid #ccc;padding:.5rem;vertical-align:top;text-align:left}
+code{font-size:12px}.wrap{overflow-x:auto}</style></head><body>
+<h1>リフォーム費用の公開値を、こちらの runner で再計算した結果</h1>
+<p>kuangmi-bit/conduct-witness の GitHub runner が 2026-10-06 に、HORIZON SHIELD が公開している工事費の値(souba-db 2.2.0)を自分で取り寄せて確かめました。
+データの SHA-256 は <code>85418e4af9d3d727af2eb1c95566aa56f21d8ae1046601bc259baa302515680d</code> で、JIDEC 台帳の <a href="https://ledger.horizonshield.dev/ledger/42">記録</a> に載っています。</p>
+<div class="wrap"><table><thead><tr><th>ページ</th><th>公開値</th><th>結果</th><th>再計算した object</th></tr></thead><tbody>
+<tr><td><a href="https://shield.the-horizons-innovation.com/souba/yane-fukikae-galvalume-souba/">/souba/yane-fukikae-galvalume-souba/</a></td><td>屋根葺き替え ガルバリウム 30坪: ¥1,000,000〜¥2,000,000 (平均 ¥1,500,000) / 一式<br>屋根カバー工法 30坪（ガルバリウム）: ¥700,000〜¥1,500,000 (平均 ¥1,100,000) / 一式</td><td>一致 (match)</td><td><a href="https://shield.the-horizons-innovation.com/evidence/claims/yane-fukikae-galvalume.json">object</a><br><code>b47f251d804e8bae</code></td></tr>
+<tr><td><a href="https://shield.the-horizons-innovation.com/souba/shiroari-30tsubo-hiyou/">/souba/shiroari-30tsubo-hiyou/</a></td><td>シロアリ駆除 30坪 一式: ¥150,000〜¥300,000 (平均 ¥220,000) / 一式<br>シロアリ駆除 20坪 一式: ¥99,000〜¥200,000 (平均 ¥150,000) / 一式<br>床下換気扇設置 1台: ¥80,000〜¥250,000 (平均 ¥150,000) / 1台</td><td>一致 (match)</td><td><a href="https://shield.the-horizons-innovation.com/evidence/claims/shiroari-30tsubo.json">object</a><br><code>8bc75e4acce7a1a8</code></td></tr>
+<tr><td><a href="https://shield.the-horizons-innovation.com/souba/yane-cover-galvalume-souba/">/souba/yane-cover-galvalume-souba/</a></td><td>屋根カバー工法 30坪（ガルバリウム）: ¥700,000〜¥1,500,000 (平均 ¥1,100,000) / 一式<br>屋根葺き替え ガルバリウム 30坪: ¥1,000,000〜¥2,000,000 (平均 ¥1,500,000) / 一式</td><td>一致 (match)</td><td><a href="https://shield.the-horizons-innovation.com/evidence/claims/yane-cover-galvalume.json">object</a><br><code>3b2ec1a4324ceadb</code></td></tr>
+<tr><td><a href="https://shield.the-horizons-innovation.com/souba/unit-bath-1616-souba/">/souba/unit-bath-1616-souba/</a></td><td>ユニットバス交換 ミドル（1616）: ¥900,000〜¥1,500,000 (平均 ¥1,200,000) / 一式<br>ユニットバス交換 ロー（1216）: ¥600,000〜¥1,100,000 (平均 ¥850,000) / 一式</td><td>一致 (match)</td><td><a href="https://shield.the-horizons-innovation.com/evidence/claims/unit-bath-1616.json">object</a><br><code>a2a1ef5537995820</code></td></tr>
+</tbody></table></div>
+<p>確かめたこと: データの hash を自分で計算した / その hash が台帳にある / 値の object の hash を正規化した JSON から計算し直した / object の各行がデータの同じ id の行と一致する / 該当ページに同じ金額が載っている。</p>
+<p>確かめていないこと: 値そのものが市場の実態として正しいこと、個別の見積もりが適正かどうか。この表が言えるのは、公開された値が互いに食い違っていないことだけです。</p>
+<p>Machine readable: <a href="receipt.json">receipt.json</a> (GitHub attestation: <code>gh attestation verify receipt.json -R kuangmi-bit/conduct-witness</code>). Run: https://github.com/kuangmi-bit/conduct-witness/actions/runs/37451321279</p>
+</body></html>

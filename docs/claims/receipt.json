@@ -1,0 +1,169 @@
+{
+ "schema": "souba-claims-receipt-v0",
+ "recomputed_at": "2026-10-06T10:40:29Z",
+ "where": {
+  "repository": "kuangmi-bit/conduct-witness",
+  "run_url": "https://github.com/kuangmi-bit/conduct-witness/actions/runs/37451321279"
+ },
+ "index": "https://shield.the-horizons-innovation.com/evidence/claims/index.json",
+ "dataset_version": "2.2.0",
+ "dataset_sha256_recomputed": "85418e4af9d3d727af2eb1c95566aa56f21d8ae1046601bc259baa302515680d",
+ "anchor": "https://ledger.horizonshield.dev/ledger/42",
+ "checks": {
+  "dataset_sha256_matches_index": true,
+  "dataset_sha256_in_ledger": true
+ },
+ "claims": [
+  {
+   "id": "yane-fukikae-galvalume",
+   "claim_id": "hs-souba-yane-fukikae-galvalume-eaf9149400dd",
+   "page": "https://shield.the-horizons-innovation.com/souba/yane-fukikae-galvalume-souba/",
+   "object_url": "https://shield.the-horizons-innovation.com/evidence/claims/yane-fukikae-galvalume.json",
+   "checks": {
+    "object_fetched": true,
+    "object_sha256_matches": true,
+    "object_names_this_dataset": true,
+    "values_equal_dataset": true,
+    "page_prints_the_figures": true
+   },
+   "values": [
+    {
+     "category_id": "yane_fukikae_galv",
+     "work": "屋根葺き替え ガルバリウム 30坪",
+     "unit": "一式",
+     "min": 1000000,
+     "avg": 1500000,
+     "max": 2000000,
+     "equals_dataset": true
+    },
+    {
+     "category_id": "yane_cover_30tsubo",
+     "work": "屋根カバー工法 30坪（ガルバリウム）",
+     "unit": "一式",
+     "min": 700000,
+     "avg": 1100000,
+     "max": 1500000,
+     "equals_dataset": true
+    }
+   ],
+   "object_sha256_recomputed": "b47f251d804e8baeefee47f2e76b959b413b35228c41d6c13d7cf06f958b0a93",
+   "ok": true
+  },
+  {
+   "id": "shiroari-30tsubo",
+   "claim_id": "hs-souba-shiroari-30tsubo-c60fcc1964d4",
+   "page": "https://shield.the-horizons-innovation.com/souba/shiroari-30tsubo-hiyou/",
+   "object_url": "https://shield.the-horizons-innovation.com/evidence/claims/shiroari-30tsubo.json",
+   "checks": {
+    "object_fetched": true,
+    "object_sha256_matches": true,
+    "object_names_this_dataset": true,
+    "values_equal_dataset": true,
+    "page_prints_the_figures": true
+   },
+   "values": [
+    {
+     "category_id": "shiroari_kujo_30tsubo",
+     "work": "シロアリ駆除 30坪 一式",
+     "unit": "一式",
+     "min": 150000,
+     "avg": 220000,
+     "max": 300000,
+     "equals_dataset": true
+    },
+    {
+     "category_id": "shiroari_kujo_20tsubo",
+     "work": "シロアリ駆除 20坪 一式",
+     "unit": "一式",
+     "min": 99000,
+     "avg": 150000,
+     "max": 200000,
+     "equals_dataset": true
+    },
+    {
+     "category_id": "shiroari_kankiouji",
+     "work": "床下換気扇設置 1台",
+     "unit": "1台",
+     "min": 80000,
+     "avg": 150000,
+     "max": 250000,
+     "equals_dataset": true
+    }
+   ],
+   "object_sha256_recomputed": "8bc75e4acce7a1a8848be036edd6913430381d2aff5161fc75e2981a473130b4",
+   "ok": true
+  },
+  {
+   "id": "yane-cover-galvalume",
+   "claim_id": "hs-souba-yane-cover-galvalume-f774f5d96a4d",
+   "page": "https://shield.the-horizons-innovation.com/souba/yane-cover-galvalume-souba/",
+   "object_url": "https://shield.the-horizons-innovation.com/evidence/claims/yane-cover-galvalume.json",
+   "checks": {
+    "object_fetched": true,
+    "object_sha256_matches": true,
+    "object_names_this_dataset": true,
+    "values_equal_dataset": true,
+    "page_prints_the_figures": true
+   },
+   "values": [
+    {
+     "category_id": "yane_cover_30tsubo",
+     "work": "屋根カバー工法 30坪（ガルバリウム）",
+     "unit": "一式",
+     "min": 700000,
+     "avg": 1100000,
+     "max": 1500000,
+     "equals_dataset": true
+    },
+    {
+     "category_id": "yane_fukikae_galv",
+     "work": "屋根葺き替え ガルバリウム 30坪",
+     "unit": "一式",
+     "min": 1000000,
+     "avg": 1500000,
+     "max": 2000000,
+     "equals_dataset": true
+    }
+   ],
+   "object_sha256_recomputed": "3b2ec1a4324ceadb2de120333032eb81b545e6d68c2680a4b56fc7f9c9e12a1a",
+   "ok": true
+  },
+  {
+   "id": "unit-bath-1616",
+   "claim_id": "hs-souba-unit-bath-1616-e2fed6a30ad4",
+   "page": "https://shield.the-horizons-innovation.com/souba/unit-bath-1616-souba/",
+   "object_url": "https://shield.the-horizons-innovation.com/evidence/claims/unit-bath-1616.json",
+   "checks": {
+    "object_fetched": true,
+    "object_sha256_matches": true,
+    "object_names_this_dataset": true,
+    "values_equal_dataset": true,
+    "page_prints_the_figures": true
+   },
+   "values": [
+    {
+     "category_id": "bath_unit_replace_mid",
+     "work": "ユニットバス交換 ミドル（1616）",
+     "unit": "一式",
+     "min": 900000,
+     "avg": 1200000,
+     "max": 1500000,
+     "equals_dataset": true
+    },
+    {
+     "category_id": "bath_unit_replace_low",
+     "work": "ユニットバス交換 ロー（1216）",
+     "unit": "一式",
+     "min": 600000,
+     "avg": 850000,
+     "max": 1100000,
+     "equals_dataset": true
+    }
+   ],
+   "object_sha256_recomputed": "a2a1ef55379958203e559107dfefc7ebc8a750fdcc76c3d09891e36aeca8619e",
+   "ok": true
+  }
+ ],
+ "what_this_does_not_establish": "that the prices are right for any market or any quote; only that the published figures, the dataset, the ledger entry and the pages agree with each other on this run",
+ "all_ok": true
+}
