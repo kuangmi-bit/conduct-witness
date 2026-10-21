@@ -1,17 +1,17 @@
 {
  "schema": "souba-claims-receipt-v0",
- "recomputed_at": "2026-10-19T13:33:11Z",
+ "recomputed_at": "2026-10-21T15:11:36Z",
  "where": {
   "repository": "kuangmi-bit/conduct-witness",
-  "run_url": "https://github.com/kuangmi-bit/conduct-witness/actions/runs/39261114830"
+  "run_url": "https://github.com/kuangmi-bit/conduct-witness/actions/runs/39623429172"
  },
  "index": "https://shield.the-horizons-innovation.com/evidence/claims/index.json",
  "dataset_version": "2.3.0",
  "dataset_sha256_recomputed": "7b16600e50ed73b844ff5b2718f04a6dd4d9ace0367982fb8d139db509d023fd",
- "anchor": "https://ledger.horizonshield.dev/ledger/42",
+ "anchor": "https://ledger.horizonshield.dev/ledger/114",
  "checks": {
-  "dataset_sha256_matches_index": false,
-  "dataset_sha256_in_ledger": false
+  "dataset_sha256_matches_index": true,
+  "dataset_sha256_in_ledger": true
  },
  "claims": [
   {
@@ -22,7 +22,7 @@
    "checks": {
     "object_fetched": true,
     "object_sha256_matches": true,
-    "object_names_this_dataset": false,
+    "object_names_this_dataset": true,
     "values_equal_dataset": true,
     "page_prints_the_figures": true
    },
@@ -46,8 +46,8 @@
      "equals_dataset": true
     }
    ],
-   "object_sha256_recomputed": "b47f251d804e8baeefee47f2e76b959b413b35228c41d6c13d7cf06f958b0a93",
-   "ok": false
+   "object_sha256_recomputed": "ec2b222fe512b254cbdd9a8ce4c751cc487619383f15c055a6a28aeb9ad85edd",
+   "ok": true
   },
   {
    "id": "shiroari-30tsubo",
@@ -57,9 +57,9 @@
    "checks": {
     "object_fetched": true,
     "object_sha256_matches": true,
-    "object_names_this_dataset": false,
-    "values_equal_dataset": false,
-    "page_prints_the_figures": false
+    "object_names_this_dataset": true,
+    "values_equal_dataset": true,
+    "page_prints_the_figures": true
    },
    "values": [
     {
@@ -84,18 +84,14 @@
      "category_id": "shiroari_kankiouji",
      "work": "床下換気扇設置 1台",
      "unit": "1台",
-     "min": 80000,
-     "avg": 150000,
-     "max": 250000,
-     "equals_dataset": false
+     "min": 30000,
+     "avg": 60000,
+     "max": 100000,
+     "equals_dataset": true
     }
    ],
-   "object_sha256_recomputed": "8bc75e4acce7a1a8848be036edd6913430381d2aff5161fc75e2981a473130b4",
-   "page_missing": [
-    "¥80,000",
-    "¥250,000"
-   ],
-   "ok": false
+   "object_sha256_recomputed": "1c746a9429575b74723a77a728d289c472a0cc5dffa6de573690a4b680abc0e2",
+   "ok": true
   },
   {
    "id": "yane-cover-galvalume",
@@ -105,7 +101,7 @@
    "checks": {
     "object_fetched": true,
     "object_sha256_matches": true,
-    "object_names_this_dataset": false,
+    "object_names_this_dataset": true,
     "values_equal_dataset": true,
     "page_prints_the_figures": true
    },
@@ -129,8 +125,8 @@
      "equals_dataset": true
     }
    ],
-   "object_sha256_recomputed": "3b2ec1a4324ceadb2de120333032eb81b545e6d68c2680a4b56fc7f9c9e12a1a",
-   "ok": false
+   "object_sha256_recomputed": "c648345ca0885a769eede1bf66ce1f9de59beadcedd3b1ee6afef156a7bade1e",
+   "ok": true
   },
   {
    "id": "unit-bath-1616",
@@ -140,7 +136,7 @@
    "checks": {
     "object_fetched": true,
     "object_sha256_matches": true,
-    "object_names_this_dataset": false,
+    "object_names_this_dataset": true,
     "values_equal_dataset": true,
     "page_prints_the_figures": true
    },
@@ -164,10 +160,10 @@
      "equals_dataset": true
     }
    ],
-   "object_sha256_recomputed": "a2a1ef55379958203e559107dfefc7ebc8a750fdcc76c3d09891e36aeca8619e",
-   "ok": false
+   "object_sha256_recomputed": "d67a1525ecab6cedb5a6eba89100e6f735dd7c3dbeaf2587c6a957006d5900c6",
+   "ok": true
   }
  ],
  "what_this_does_not_establish": "that the prices are right for any market or any quote; only that the published figures, the dataset, the ledger entry and the pages agree with each other on this run",
- "all_ok": false
+ "all_ok": true
 }
