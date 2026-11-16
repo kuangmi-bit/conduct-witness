@@ -1,9 +1,9 @@
 {
  "schema": "souba-claims-receipt-v0",
- "recomputed_at": "2026-11-09T16:35:23Z",
+ "recomputed_at": "2026-11-16T16:00:21Z",
  "where": {
   "repository": "kuangmi-bit/conduct-witness",
-  "run_url": "https://github.com/kuangmi-bit/conduct-witness/actions/runs/42656275060"
+  "run_url": "https://github.com/kuangmi-bit/conduct-witness/actions/runs/43902601996"
  },
  "index": "https://shield.the-horizons-innovation.com/evidence/claims/index.json",
  "dataset_version": "2.3.0",
